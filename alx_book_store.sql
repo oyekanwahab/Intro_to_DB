@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS orders (
     order_id PRIMARY KEY AUTO_INCREMENT,
     customer_id int NOT NULL, 
     order_date DATE NOT NULL,
-    FOREIGN KEY (customer_id) REFRENCE Customers(customer_id)
+    FOREIGN KEY (customer_id) REFRENCES Customers(customer_id)
 )
 
 CREATE TABLE IF NOT EXISTS Order_Details (
